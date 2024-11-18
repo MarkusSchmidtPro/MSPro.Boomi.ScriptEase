@@ -1,7 +1,6 @@
 package training
 
 import groovy.transform.*
-import msPro.mgf4boomi.*
 import org.junit.Test
 
 @TypeChecked

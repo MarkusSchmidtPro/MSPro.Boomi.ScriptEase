@@ -2,7 +2,7 @@ package processScript.executionProperties
 
 import groovy.transform.SourceURI
 import groovy.transform.TypeChecked
-import msPro.mgf4boomi.*
+import msPro.scriptease.*
 import org.junit.Test
 
 @TypeChecked

@@ -2,7 +2,7 @@
 package mapScript.helloWorld
 
 import groovy.transform.*
-import msPro.mgf4boomi.*
+import msPro.scriptease.*
 import org.junit.*
 
 

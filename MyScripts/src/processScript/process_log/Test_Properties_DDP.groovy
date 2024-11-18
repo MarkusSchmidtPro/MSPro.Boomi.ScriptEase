@@ -3,9 +3,9 @@ package processScript.process_log
 
 import groovy.transform.SourceURI
 import groovy.transform.TypeChecked
-import msPro.mgf4boomi.Document
-import msPro.mgf4boomi.ProcessScript
-import msPro.mgf4boomi.ProcessScriptContext
+import msPro.scriptease.Document
+import msPro.scriptease.ProcessScript
+import msPro.scriptease.ProcessScriptContext
 import org.junit.Test 
 /**
  * Demo Dynamic Document Properties
