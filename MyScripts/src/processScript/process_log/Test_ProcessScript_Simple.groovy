@@ -9,7 +9,7 @@ import msPro.scriptease.ProcessScriptContext
 import org.junit.Test
 
 /**
- * Demo MGF4Boomi functionality.
+ * ScriptEase Test - Simple Process Script.
  */
 @TypeChecked
 class Test_ProcessScript_Simple {

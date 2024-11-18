@@ -1,6 +1,7 @@
 package training
 
 import groovy.transform.*
+import msPro.scriptease.*
 import org.junit.Test
 
 @TypeChecked
