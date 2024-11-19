@@ -40,7 +40,7 @@ class Test_HelloWorld {
 			* Process Properties         : procPros
 			
 			context = new ProcessContext(
-					dynProcPros: ["DPP_01": "Value01"] as HashMap
+					dynProcPros: ["DPP_01": "Value01"]
 			)
 		*/
 
@@ -56,10 +56,10 @@ class Test_HelloWorld {
 		// Script Output variables (which include the input variables) are returned by the run() function 
 		// and can be validated after the execution.
 		//
-		final HashMap inputVariables = [a: 5, b: 7]
+		final Map inputVariables = [a: 5, b: 7]
 		final int expectedTotal = inputVariables.a + inputVariables.b
 
-		HashMap<String, Object> variables = _testScript.run(inputVariables)
+		Map<String, Object> variables = _testScript.run(inputVariables)
 
 		println("\r\n--- Test Output ----------")
 		assert variables.total != null, "Script did not set 'total' as output parameter!"
