@@ -1,7 +1,11 @@
 ### IntelliJ IDEA Project ###
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+
+lib/mgf4boomi.license
+lib/scriptease.license
+logs
+.idea/workspace_org.xml
+.idea/workspace.xml
 
 
 ### Intellij ###
@@ -9,7 +13,6 @@ out/
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff:
-.idea/workspace.xml
 .idea/tasks.xml
 .idea/dictionaries
 .idea/vcs.xml

@@ -1,16 +1,17 @@
 package templatesSource
 
 import groovy.transform.*
-import msPro.mgf4boomi.*
+import msPro.scriptease.*
 import org.junit.Test
 
 @TypeChecked
-class Test_${BoomiScriptName} {
-	final String SCRIPT_NAME = "${BoomiScriptName}"
+class Test_${Plain_BoomiScriptName} {
+	final String SCRIPT_NAME = "${Plain_BoomiScriptName}"
 
 	@SourceURI
 	URI _sourceUri
 	final ProcessScript _testScript = new ProcessScript("psg" + SCRIPT_NAME + ".groovy", _sourceUri)
+	final TestFilesHelper _testFiles = new TestFilesHelper( "testData", _sourceUri)
 
 	/** A short description what this test is supposed to do. */
 	@Test
@@ -26,7 +27,11 @@ class Test_${BoomiScriptName} {
 		ProcessScriptContext context = new ProcessScriptContext(
 				inputDocuments: [
 						Document.fromText('{ "firstname" : "Walter", "lastname" : "Schmidt" }')
-				])
+						//, Document.fromFile( _testFiles.get( "filename.XML"))
+				],
+				dynProcPros: [
+						DPP_Prop01 : "2024",
+				] )
 		_testScript.run(context)
 
 		println("\r\n--- Test Output ----------")

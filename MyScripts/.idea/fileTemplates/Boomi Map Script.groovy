@@ -1,7 +1,7 @@
 
 import com.boomi.execution.ExecutionUtil
 
-final String SCRIPT_NAME = "${BoomiScriptName}"
+final String SCRIPT_NAME = "${Plain_BoomiScriptName}"
 
 /** ================================================================================== 
     ${SingleLineDescription}

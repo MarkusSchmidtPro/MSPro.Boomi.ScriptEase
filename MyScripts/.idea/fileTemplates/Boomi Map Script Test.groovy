@@ -1,12 +1,12 @@
 package templatesSource
 
 import groovy.transform.*
-import msPro.mgf4boomi.*
+import msPro.scriptease.*
 import org.junit.*
 
 @TypeChecked
-class Test_${BoomiScriptName} {
-	final String SCRIPT_NAME = "${BoomiScriptName}"
+class Test_${Plain_BoomiScriptName} {
+	final String SCRIPT_NAME = "${Plain_BoomiScriptName}"
 
 
 	@SourceURI
@@ -23,7 +23,7 @@ class Test_${BoomiScriptName} {
 	
 	@Test
 	void test01() {
-		HashMap<String, Object> variables = _testScript.run( [
+		Map variables = _testScript.run( [
 			a: 5, 
 			b: 7
 		])

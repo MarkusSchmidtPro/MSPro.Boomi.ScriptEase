@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ExportableFileTemplateSettings">
     <default_templates>
-      <template name="Boomi Map Script.groovy" file-name="msg${BoomiScriptName}" reformat="true" live-template-enabled="false" />
-      <template name="Boomi Map Script Test.groovy" file-name="Test_${BoomiScriptName}" reformat="true" live-template-enabled="false" />
-      <template name="Boomi Process Script.groovy" file-name="psg${BoomiScriptName}" reformat="true" live-template-enabled="false" />
-      <template name="Boomi Process Script Test.groovy" file-name="Test_${BoomiScriptName}" reformat="true" live-template-enabled="false" />
+      <template name="Boomi Map Script.groovy" file-name="msg${Plain_BoomiScriptName}" reformat="true" live-template-enabled="false" />
+      <template name="Boomi Map Script Test.groovy" file-name="Test_${Plain_BoomiScriptName}" reformat="true" live-template-enabled="false" />
+      <template name="Boomi Process Script.groovy" file-name="psg${Plain_BoomiScriptName}" reformat="true" live-template-enabled="false" />
+      <template name="Boomi Process Script Test.groovy" file-name="Test_${Plain_BoomiScriptName}" reformat="true" live-template-enabled="false" />
     </default_templates>
   </component>
 </project>
