@@ -31,7 +31,7 @@ class Test_Empty {
                 ],
                 dynProcPros: [
                         DPP_Prop01: "2024",
-                ] as HashMap)
+                ] )
         _testScript.run(context)
 
         println("\r\n--- Test Output ----------")

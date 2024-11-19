@@ -49,7 +49,7 @@ try {
 
 		// *********** Document related functionality ************
 
-		Map jsonDoc = js.parseText(textDoc)
+		Map jsonDoc = js.parseText(textDoc)  as Map
 		_logger.info("DOC[$docNo]: ${jsonDoc.articleNo} = ${jsonDoc.price}")
 
 		// Business Logic

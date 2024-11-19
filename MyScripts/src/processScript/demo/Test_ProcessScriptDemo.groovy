@@ -45,7 +45,6 @@ class Test_ProcessScriptDemo {
 		// Wrap key in parenthesis so that the variables (Ids) are taken
 		// and not the text as a string
 
-
 		def procPropValue1 = 4711
 		def procPropValue2 = "Markus Schmidt"
 		

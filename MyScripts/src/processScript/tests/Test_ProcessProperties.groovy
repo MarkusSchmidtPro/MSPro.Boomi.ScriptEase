@@ -39,7 +39,7 @@ class Test_ProcessProperties {
 				dynProcPros: [
 						"DPP_DynProcProp01": 1,
 						"DPP_DynProcProp02": "Value01"
-				] as HashMap
+				]
 		)
 		_testScript.run(context)
 		_onAfterScript(context)

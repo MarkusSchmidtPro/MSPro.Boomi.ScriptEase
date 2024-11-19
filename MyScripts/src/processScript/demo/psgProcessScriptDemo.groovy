@@ -62,7 +62,7 @@ try {
 		_logger.info("${DDP_PROP_NAME}='${ddpVal1}'")   
 		
 		// Document is JSON and we want to concatenate firstname and lastname
-		Map jsonDoc = js.parseText( textDoc)
+		Map jsonDoc = js.parseText( textDoc)  as Map
 		// to understand the next line, read about JsonSlurper (or XmlSlurper)
 		// YOu may want to set a breakpoint there!
 		jsonDoc.fullname = "${jsonDoc.lastname}, ${jsonDoc.firstname}" 
