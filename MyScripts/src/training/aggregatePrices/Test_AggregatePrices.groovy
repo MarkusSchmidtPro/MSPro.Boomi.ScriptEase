@@ -1,4 +1,4 @@
-package processScript.aggregatePrices
+package training.aggregatePrices
 
 import groovy.json.JsonOutput
 import groovy.transform.SourceURI

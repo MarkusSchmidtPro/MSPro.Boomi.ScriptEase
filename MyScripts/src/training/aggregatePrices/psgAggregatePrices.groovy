@@ -1,4 +1,4 @@
-package processScript.aggregatePrices
+package training.aggregatePrices
 
 import com.boomi.execution.ExecutionUtil
 import groovy.json.JsonOutput
