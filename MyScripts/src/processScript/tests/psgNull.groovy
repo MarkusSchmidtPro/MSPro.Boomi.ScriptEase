@@ -17,7 +17,7 @@ final String SCRIPT_NAME = "Null"
 def js = new JsonSlurper()
 
 final _logger = ExecutionUtil.getBaseLogger()
-_logger.finest('>>> Script start ' + SCRIPT_NAME)
+_logger.info('>>> Script start ' + SCRIPT_NAME)
 try {
 	int docCount = dataContext.getDataCount()
 	_logger.fine("In-Document Count=" + docCount)

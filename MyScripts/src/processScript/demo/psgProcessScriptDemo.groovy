@@ -37,7 +37,7 @@ final String SCRIPT_NAME = "processScript.demo.psgDemo"
 
 // Use a logger to write information to process reporting
 final _logger = ExecutionUtil.getBaseLogger()
-_logger.finest('>>> Script start ' + SCRIPT_NAME)
+_logger.info('>>> Script start ' + SCRIPT_NAME)
 
 def js = new JsonSlurper()
 
@@ -94,6 +94,7 @@ catch (Exception e) {
 	throw e
 }
 
+
 // =================================================
 // -------------------- LOCALS ---------------------
 // =================================================
@@ -109,6 +110,45 @@ static void _setTextDocument(dataContext, String value, Properties props) {
 }
 
 
+// region Dynamic Document Properties
+
+/** Get a Dynamic Document Property.
+ *
+ * @param docProperties The document properties [props] as they were read using 
+ *                      <code>Properties props = dataContext.getProperties(docNo)</code>
+ * @param propertyName The document property name.
+ * @param defaultValue If default is null (not provided), an exception is thrown when the property is not set.
+ *                      Otherwise, the [defaultValue] is returned in case it does not exist (is empty).
+ *                      Whitespaces are valid characters and a whitespaces string is not empty!
+ * @return The property value (or [defaultValue])
+ */
+private static String _getDDP(Properties docProperties, String propertyName, String defaultValue = null) {
+	final String userDefinedPropertyBase = 'document.dynamic.userdefined.'
+	String v = docProperties.getProperty(userDefinedPropertyBase + propertyName)
+	if (v == null || v.isEmpty()) {
+		// Default handler
+		if (defaultValue == null) throw new Exception("Mandatory " + propertyName + " not set.")
+		v = defaultValue
+	}
+	return v
+}
+
+/** Set (create or update) a Dynamic Document Property.
+ *
+ * @param docProperties The document properties [props] as they were read using 
+ *                      <code>Properties props = dataContext.getProperties(docNo)</code>
+ * @param propertyName The document property name.
+ * @param value
+ */
+private static void _setDDP(Properties docProperties, String propertyName, String value) {
+	final String userDefinedPropertyBase = 'document.dynamic.userdefined.'
+	docProperties.setProperty(userDefinedPropertyBase + propertyName, value)
+}
+// endregion
+
+
+// region Dynamic Process Properties
+
 /** Get a dynamic process property.
  *
  * @param propertyName
@@ -117,7 +157,7 @@ static void _setTextDocument(dataContext, String value, Properties props) {
  *                      Whitespaces are valid characters and a whitespaces string is not empty!
  * @return The property value (or default)
  */
-static String _getDPP(String propertyName, Object defaultValue = null) {
+private static String _getDPP(String propertyName, String defaultValue = null) {
 	String v = ExecutionUtil.getDynamicProcessProperty(propertyName)
 	if (v == null || v.isEmpty()) {
 		// Default handler
@@ -132,25 +172,9 @@ static String _getDPP(String propertyName, Object defaultValue = null) {
  * @param propertyName
  * @param value
  */
-static void _setDPP(String propertyName, Object value) {
+static void _setDPP(String propertyName, String value) {
 	ExecutionUtil.setDynamicProcessProperty(propertyName, value, false)
 }
 
-static String _getDDP(Properties docProperties, String propertyName, String defaultValue = null) {
-	final String userDefinedPropertyBase = 'document.dynamic.userdefined.'
-	String v = docProperties.getProperty(userDefinedPropertyBase + propertyName)
-	if (v == null || v.isEmpty()) {
-		// If dynamic document property is not set 
-		// and there is no default value give,
-		// throw an Exception: Boomi handles such exceptions in the same way 
-		// like the Exception shape. 
-		if (defaultValue == null) throw new Exception("Mandatory " + propertyName + " not set.")
-		v = defaultValue
-	}
-	return v
-}
+// endregion 
 
-static String _setDDP(Properties docProperties, String propertyName, Object value) {
-	final String userDefinedPropertyBase = 'document.dynamic.userdefined.'
-	docProperties.setProperty(userDefinedPropertyBase + propertyName, value as String)
-}

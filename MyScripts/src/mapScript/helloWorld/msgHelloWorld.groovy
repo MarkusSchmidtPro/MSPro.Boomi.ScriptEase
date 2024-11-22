@@ -33,7 +33,7 @@ try {
      * or to the debug windows when testing.
      */
      String atomId = ExecutionUtil.getRuntimeExecutionProperty("ATOM_ID")
-    _logger.fine("Atom-ID: $atomId")
+    _logger.info("Atom-ID: $atomId")
 
     // This is the script's logic - not too much ...
     total = a + b

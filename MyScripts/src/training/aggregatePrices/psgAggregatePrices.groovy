@@ -32,7 +32,7 @@ final String SCRIPT_NAME = "AggregatePrices"
 
 
 final _logger = ExecutionUtil.getBaseLogger()
-_logger.finest('>>> Script start ' + SCRIPT_NAME)
+_logger.info('>>> Script start ' + SCRIPT_NAME)
 
 def js = new JsonSlurper()
 

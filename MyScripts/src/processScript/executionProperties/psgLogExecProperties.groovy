@@ -17,7 +17,7 @@ final String SCRIPT_NAME = "LogExecProperties"
 
 
 _logger = ExecutionUtil.getBaseLogger()
-_logger.finest('>>> Script start ' + SCRIPT_NAME)
+_logger.info('>>> Script start ' + SCRIPT_NAME)
 try {
 	_logExecProperties(_logger)
 
