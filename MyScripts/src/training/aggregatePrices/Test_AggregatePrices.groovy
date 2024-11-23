@@ -6,15 +6,17 @@ import groovy.transform.TypeChecked
 import msPro.scriptease.Document
 import msPro.scriptease.ProcessScript
 import msPro.scriptease.ProcessScriptContext
+import msPro.scriptease.TestFilesHelper
 import org.junit.Test
 
 @TypeChecked
-class Test_AggregatePrices {
+class Test_AggregatePrices extends GroovyTestCase{
 	final String SCRIPT_NAME = "AggregatePrices"
 
 	@SourceURI
 	URI _sourceUri
 	final ProcessScript _testScript = new ProcessScript("psg" + SCRIPT_NAME + ".groovy", _sourceUri)
+	final TestFilesHelper _testFiles = new TestFilesHelper( "testData", _sourceUri)
 
 
 	/** A short description what this test is supposed to do. */
@@ -30,10 +32,17 @@ class Test_AggregatePrices {
 
 		ProcessScriptContext context = new ProcessScriptContext(
 				inputDocuments: [
+						/* Chose the fromText factory to create a Document from a String
 						Document.fromText('{ "articleNo" : "a001", "price" : 1.23 }'),
 						Document.fromText('{ "articleNo" : "a002", "price" : 2.00 }'),
 						Document.fromText('{ "articleNo" : "a001", "price" : 1.02 }'),
 						Document.fromText('{ "articleNo" : "a001", "price" : 0.98 }')
+						*/
+						/* Chose the fromFile factory to load Document data from file.  */
+						Document.fromFile( _testFiles.get("rec01.json")),
+						Document.fromFile( _testFiles.get("rec02.json")),
+						Document.fromFile( _testFiles.get("rec03.json")),
+						Document.fromFile( _testFiles.get("rec04.json")),
 				])
 		_testScript.run(context)
 

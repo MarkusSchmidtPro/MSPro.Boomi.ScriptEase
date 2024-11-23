@@ -5,7 +5,7 @@ import msPro.scriptease.*
 import org.junit.Test
 
 @TypeChecked
-class Test_${Plain_BoomiScriptName} {
+class Test_${Plain_BoomiScriptName} extends GroovyTestCase {
 	final String SCRIPT_NAME = "${Plain_BoomiScriptName}"
 
 	@SourceURI
