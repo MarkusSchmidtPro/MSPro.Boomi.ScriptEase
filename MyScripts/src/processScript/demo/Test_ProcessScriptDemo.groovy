@@ -85,7 +85,7 @@ class Test_ProcessScriptDemo {
 		println("${context.outputDocuments.size()} Document(s) after script execution")
 		assert documentCount == context.outputDocuments.size() 
 
-		assert context.dynProcPros.DPP_IntValue == 1
+		assert context.dynProcPros.DPP_IntValue == "1"
 
 		def pp = context.procPros[PROCESS_PROPERTY_COMPONENT_ID]
 		assert pp[ VAL1_ID] == procPropValue1 + 1

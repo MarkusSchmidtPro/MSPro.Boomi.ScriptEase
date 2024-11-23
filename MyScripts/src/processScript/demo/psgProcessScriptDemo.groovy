@@ -58,7 +58,7 @@ try {
 
 		// Increment Dynamic Document Property
 		int ddpVal1 = _getDDP(props, DDP_PROP_NAME) as int
-		_setDDP(props, DDP_PROP_NAME, ddpVal1 + 1)
+		_setDDP(props, DDP_PROP_NAME, (ddpVal1 + 1) as String)
 		_logger.info("${DDP_PROP_NAME}='${ddpVal1}'")   
 		
 		// Document is JSON and we want to concatenate firstname and lastname
@@ -81,7 +81,7 @@ try {
 
 	final String DPP_PROP_NAME = "DPP_IntValue"
 	int dppValue = _getDPP(DPP_PROP_NAME) as int
-	_setDPP(DPP_PROP_NAME, dppValue + 1)
+	_setDPP(DPP_PROP_NAME, (dppValue + 1) as String)
 	_logger.info("${DPP_PROP_NAME}='${dppValue}'")
 
 	final String PROCESS_PROPERTY_COMPONENT_ID = "8fb41f63-a988-4778-8cc8-0144f30ace81"
