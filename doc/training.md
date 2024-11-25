@@ -44,6 +44,12 @@ println(JsonOutput.prettyPrint(text))
   * ctrl k, f
   * def, bulb, explicit type
   * Variables, *def*, Strings ' ""'
+  * 2.3.1. Declaring classes
+    * Listing 2.3. Using the Book class from a script
+
+
+
+
   * Arrays, Maps, JsonSlurper
 
 * [Concepts | The MSPro Boomi Collection](https://mspro.gitbook.io/the-mspro-boomi-collection/boomi-scriptease/general)
