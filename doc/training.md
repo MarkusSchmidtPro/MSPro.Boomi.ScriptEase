@@ -9,20 +9,60 @@ At the end of the preparation, you should have [verified your project setup.](ht
 
 ## Day 1
 
-* [ScriptEase in Action | The MSPro Boomi Collection](https://mspro.gitbook.io/the-mspro-boomi-collection/boomi-scriptease/using-groovy-for-boomi)
-  * Talk about the basics, Tests and Scripts
-  * See IDE and how to debug, watch variables
-  * *Run* and *Debug*
-* Debug an existing process script
-  * training.example01 is ready
-* Debug an existing Process Script Example 1
+* some resources 
+* [Learn Groovy | The MSPro Boomi Collection](https://mspro.gitbook.io/the-mspro-boomi-collection/boomi-scriptease/knowlede-base/learn-groovy)
+* We play!
+```groovy
+println "Hello world!"
+String name = "Markus"
+println("Hello $name")
+```
+
+```groovy
+import groovy.json.JsonOutput
+import groovy.json.JsonSlurper
+
+println "Hello world!"
+String name = "Markus"
+println("Hello $name")
+
+
+def js = new JsonSlurper()
+def json = js.parseText('''
+  { "firstname" : "Markus",  
+    "lastname" : "Schmidt" }
+''')
+
+// See output with [] --> Map = KeyValue Array/List
+println(json)
+println("-----")
+
+String text = JsonOutput.toJson(json)
+println(JsonOutput.prettyPrint(text))
+```
+
+  * ctrl k, f
+  * def, bulb, explicit type
+  * Variables, *def*, Strings ' ""'
+  * Arrays, Maps, JsonSlurper
+
+* [Concepts | The MSPro Boomi Collection](https://mspro.gitbook.io/the-mspro-boomi-collection/boomi-scriptease/general)
+  * [1 - Debug an existing process script | The MSPro Boomi Collection](https://mspro.gitbook.io/the-mspro-boomi-collection/boomi-scriptease/examples/1-debug-an-existing-process-script)
+    * Talk about the basics, Tests and Scripts
+    * See IDE and how to debug, watch variables
+    * *Run* and *Debug*
   * Add logging to the "Empty" script
-  * paste it into Boom and let it run
-* Goto ScriptContext creation
-  * Talk about Groovy Strings ' ""'
+    * paste it into Boom and let it run
+  * Goto ScriptContext creation
 * Walk through different Process Context scenarios.
   * Add the documentFromText() method
   * and debug
   * Let the team add a getProcessProperty( "DPP_TestProp") and assign it to a string
 * Fix the "Empty" project and log "DPP_TestProp" 
   * copy and paste back to Boomi, set DPP_TestProp and see logs
+
+## Extension
+
+* Files from disk
+* read from xml
+* set DDP
