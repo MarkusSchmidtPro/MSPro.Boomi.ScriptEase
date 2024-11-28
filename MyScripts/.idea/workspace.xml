@@ -4,18 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e84159e0-cd78-4846-bb07-e5cfb0ed25ee" name="Changes" comment="gitignore added">
-      <change afterPath="$PROJECT_DIR$/src/training/Test_abc.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/training/psgabc.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/file.template.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/file.template.settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/fileTemplates/Boomi Map Script Test.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fileTemplates/Boomi Map Script Test.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/fileTemplates/Boomi Map Script.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fileTemplates/Boomi Map Script.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/fileTemplates/Boomi Process Script Test.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fileTemplates/Boomi Process Script Test.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/fileTemplates/Boomi Process Script.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fileTemplates/Boomi Process Script.groovy" afterDir="false" />
+    <list default="true" id="e84159e0-cd78-4846-bb07-e5cfb0ed25ee" name="Changes" comment="Fixed Library references 2">
+      <change afterPath="$PROJECT_DIR$/src/training/psgGetIDocType/Test_GetIDocType.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/training/psgGetIDocType/testData/Export_WMMBID02.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/training/psgGetIDocType/testData/Export_ZTOUR02.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/training/psgGetIDocType/testData/Export_ZTOURAUF.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/scriptEaseLib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/scriptEaseLib.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/training/psgEmpty.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/training/psgEmpty.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/training/msgSimple/msgSimple.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/training/msgSimple/msgSimple.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/training/psgGetIDocType/psdGetIDocType.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/training/psgGetIDocType/psgGetIDocType.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/scriptContextdrawio.drawio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/training.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,10 +24,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Boomi Map Script Test" />
-        <option value="Boomi Map Script" />
         <option value="Boomi Process Script" />
         <option value="Boomi Process Script Test" />
+        <option value="Boomi Map Script" />
+        <option value="Boomi Map Script Test" />
       </list>
     </option>
     <option name="SCHEME" value="Project" />
@@ -48,8 +47,13 @@
     &quot;accountId&quot;: &quot;efed8f70-e091-40c8-8fae-86dbeb57a4e8&quot;
   }
 }</component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="All in MyScripts" />
+    </enabled-run-configurations>
+  </component>
   <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;5c6535a9&quot;
+  &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2p3zejpu8HTtFKOY0PBxMCzJLTK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -60,15 +64,37 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path": "V:\\VStudio\\MSPro.Boomi.ScriptEase\\MyScripts\\lib}groovy-2.4.20",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Groovy.deleteFilesNotUsed.executor": "Debug",
+    "Groovy.main.executor": "Run",
+    "Groovy.msgHelloWorld.executor": "Run",
+    "JUnit.All in MyScripts (1).executor": "Run",
+    "JUnit.All in MyScripts.executor": "Run",
+    "JUnit.Test_AggregatePrices.executor": "Run",
+    "JUnit.Test_AggregatePrices.test01.executor": "Run",
     "JUnit.Test_Empty.executor": "Debug",
     "JUnit.Test_Empty.test01.executor": "Run",
+    "JUnit.Test_GetIDocType.test03_IDocType.executor": "Debug",
+    "JUnit.Test_HelloWorld.test01.executor": "Run",
+    "JUnit.Test_LogExecProperties.executor": "Run",
+    "JUnit.Test_LogExecProperties.test01.executor": "Run",
+    "JUnit.Test_SetIDocType.test03_IDocType.executor": "Debug",
+    "JUnit.Test_Simple.executor": "Run",
+    "JUnit.Test_Simple.test01.executor": "Run",
     "JUnit.Test_abc.test01.executor": "Run",
+    "JUnit.processScript in MyScripts.executor": "Run",
+    "JUnit.training in MyScripts.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "V:/VStudio/MSPro.Boomi.ScriptEase/MyScripts/src/training/psgGetIDocType/testData",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -76,65 +102,95 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.13218391",
-    "settings.editor.selected.configurable": "fileTemplates",
+    "settings.editor.selected.configurable": "editing.templates",
     "settings.editor.splitter.proportion": "0.39253998",
     "show.migrate.to.gradle.popup": "false",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.Test_abc.test01">
-    <configuration name="Test_Empty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="training.aggregatePrices" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="V:\VStudio\MSPro.Boomi.ScriptEase\MyScripts\src\training\psgGetIDocType\testData" />
+      <recent name="V:\VStudio\MSPro.Boomi.ScriptEase\MyScripts\src\training\psgGetIDocType" />
+      <recent name="V:\VStudio\MSPro.Boomi.ScriptEase.Demo\myScripts\src\training\msgSimple\testData" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Test_GetIDocType.test03_IDocType">
+    <configuration name="All in MyScripts (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyScripts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="training.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="training" />
-      <option name="MAIN_CLASS_NAME" value="training.Test_Empty" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_Empty.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in MyScripts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyScripts" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_GetIDocType.test03_IDocType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyScripts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="training.*" />
+          <option name="PATTERN" value="training.psgGetIDocType.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="training" />
-      <option name="MAIN_CLASS_NAME" value="training.Test_Empty" />
+      <option name="PACKAGE_NAME" value="training.psgGetIDocType" />
+      <option name="MAIN_CLASS_NAME" value="training.psgGetIDocType.Test_GetIDocType" />
+      <option name="METHOD_NAME" value="test03_IDocType" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_LogExecProperties.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyScripts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="processScript.executionProperties.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="processScript.executionProperties" />
+      <option name="MAIN_CLASS_NAME" value="processScript.executionProperties.Test_LogExecProperties" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_abc.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="processScript in MyScripts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyScripts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="training.*" />
+          <option name="PATTERN" value="processScript.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="training" />
-      <option name="MAIN_CLASS_NAME" value="training.Test_abc" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="processScript" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Test_abc.test01" />
-        <item itemvalue="JUnit.Test_Empty.test01" />
-        <item itemvalue="JUnit.Test_Empty" />
+        <item itemvalue="JUnit.Test_GetIDocType.test03_IDocType" />
+        <item itemvalue="JUnit.All in MyScripts (1)" />
+        <item itemvalue="JUnit.All in MyScripts" />
+        <item itemvalue="JUnit.Test_LogExecProperties.test01" />
+        <item itemvalue="JUnit.processScript in MyScripts" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +213,108 @@
       <workItem from="1732017158590" duration="147000" />
       <workItem from="1732017315900" duration="168000" />
       <workItem from="1732017843499" duration="779000" />
+      <workItem from="1732022781130" duration="924000" />
+      <workItem from="1732024362314" duration="1098000" />
+      <workItem from="1732095134406" duration="444000" />
+      <workItem from="1732096102277" duration="770000" />
+      <workItem from="1732260379615" duration="1300000" />
+      <workItem from="1732264410382" duration="30000" />
+      <workItem from="1732264445442" duration="16000" />
+      <workItem from="1732264475200" duration="207000" />
+      <workItem from="1732264788020" duration="16000" />
+      <workItem from="1732264851695" duration="5000" />
+      <workItem from="1732264941992" duration="3185000" />
+      <workItem from="1732276320089" duration="5709000" />
+      <workItem from="1732294283812" duration="3397000" />
+      <workItem from="1732351525082" duration="7361000" />
+      <workItem from="1732371316926" duration="2925000" />
+      <workItem from="1732399717450" duration="4000" />
+      <workItem from="1732516840970" duration="807000" />
+      <workItem from="1732517784938" duration="69000" />
+      <workItem from="1732517863347" duration="199000" />
+      <workItem from="1732519321301" duration="73000" />
+      <workItem from="1732519433977" duration="196000" />
+      <workItem from="1732519639458" duration="105000" />
+      <workItem from="1732519772557" duration="784000" />
+      <workItem from="1732520663866" duration="570000" />
+      <workItem from="1732521270994" duration="632000" />
+      <workItem from="1732521929411" duration="32000" />
+      <workItem from="1732523107369" duration="36000" />
+      <workItem from="1732523439371" duration="52000" />
+      <workItem from="1732526827924" duration="1293000" />
+      <workItem from="1732529566814" duration="2491000" />
+      <workItem from="1732532065775" duration="6000" />
+      <workItem from="1732552916990" duration="43000" />
+      <workItem from="1732552967853" duration="62000" />
+      <workItem from="1732553139194" duration="69000" />
+      <workItem from="1732697197103" duration="4415000" />
+      <workItem from="1732783466163" duration="4896000" />
     </task>
+    <task id="LOCAL-00001" summary="Training added">
+      <option name="closed" value="true" />
+      <created>1732027690154</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732027690154</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Training added">
+      <option name="closed" value="true" />
+      <created>1732027698596</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732027698596</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Weekend">
+      <option name="closed" value="true" />
+      <created>1732297714425</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732297714425</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Simple Script added">
+      <option name="closed" value="true" />
+      <created>1732371931623</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732371931623</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Simple Script added">
+      <option name="closed" value="true" />
+      <created>1732371937580</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1732371937580</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Updated content">
+      <option name="closed" value="true" />
+      <created>1732532049157</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1732532049157</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fixed Library references">
+      <option name="closed" value="true" />
+      <created>1732553023012</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1732553023012</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Fixed Library references 2">
+      <option name="closed" value="true" />
+      <created>1732553195999</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1732553195999</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +325,28 @@
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
     <MESSAGE value="gitignore added" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore added" />
+    <MESSAGE value="Training added" />
+    <MESSAGE value="Weekend" />
+    <MESSAGE value="Simple Script added" />
+    <MESSAGE value="Updated content" />
+    <MESSAGE value="Fixed Library references" />
+    <MESSAGE value="Fixed Library references 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed Library references 2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/training/aggregatePrices/psgAggregatePrices.groovy</url>
+          <line>61</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/processScript/executionProperties/Test_LogExecProperties.groovy</url>
+          <line>37</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

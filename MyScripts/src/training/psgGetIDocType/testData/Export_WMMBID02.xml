@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--MessageCounter 0000002484811180-->
+<WMMBXYEX>
+    <IDOC BEGIN="1">
+        <EDI_DC40 SEGMENT="1">
+            <TABNAM>EDI_DC40</TABNAM>
+            <DOCNUM>0000002484811180</DOCNUM>
+            <DIRECT>2</DIRECT>
+            <IDOCTYP>WMMBID02</IDOCTYP>
+            <CIMTYP>WMMBXYEX</CIMTYP>
+            <MESTYP>WMMBXY</MESTYP>
+            <SNDPOR>MIDSYSL</SNDPOR>
+            <SNDPRT>LS</SNDPRT>
+            <SNDPRN>SAP2BOOMI</SNDPRN>
+            <SNDLAD>MIDSYS_GS001_PUBLISHER;0000002484811180</SNDLAD>
+            <RCVPOR>SAPMST</RCVPOR>
+            <RCVPRT>LS</RCVPRT>
+            <RCVPRN>MSTCLNT101</RCVPRN>
+            <CREDAT>20240829</CREDAT>
+            <CRETIM>015750</CRETIM>
+            <REFINT></REFINT>
+            <SERIAL>02484811180015750</SERIAL>
+        </EDI_DC40>
+        <E1MBXYH SEGMENT="1">
+            <BLDAT>20240829</BLDAT>
+            <BUDAT>20240829</BUDAT>
+            <E1MBXYI SEGMENT="1">
+                <MATNR>2340229048</MATNR>
+                <WERKS>0001</WERKS>
+                <LGORT>8000</LGORT>
+                <BWART>551</BWART>
+                <SOBKZ></SOBKZ>
+                <ERFMG>000000001.00</ERFMG>
+                <ERFME>PCE</ERFME>
+                <GRUND>0151</GRUND>
+                <VFDAT>20181115135711</VFDAT>
+                <KOSTL>30-LAGER99</KOSTL>
+            </E1MBXYI>
+        </E1MBXYH>
+    </IDOC>
+</WMMBXYEX>
+

@@ -1,7 +1,5 @@
 package training.msgSimple
 
-import com.boomi.execution.ExecutionUtil
-
 final String SCRIPT_NAME = "Simple"
 
 /** ================================================================================== 

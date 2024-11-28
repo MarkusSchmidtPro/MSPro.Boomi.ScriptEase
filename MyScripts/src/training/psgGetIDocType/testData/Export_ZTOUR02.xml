@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--MessageCounter 0000002484772468-->
+<ZTOUR02>
+    <IDOC BEGIN="1">
+        <EDI_DC40 SEGMENT="1">
+            <TABNAM>EDI_DC40</TABNAM>
+            <DOCNUM>0000002484772468</DOCNUM>
+            <DIRECT>2</DIRECT>
+            <IDOCTYP>ZTOUR02</IDOCTYP>
+            <MESTYP>ZTOUR</MESTYP>
+            <SNDPOR>MIDSYSL</SNDPOR>
+            <SNDPRT>LS</SNDPRT>
+            <SNDLAD>MIDSYS_GS001_PUBLISHER;0000002484772468</SNDLAD>
+            <SNDPRN>SAP2BOOMI</SNDPRN>
+            <RCVPOR>SAPMST</RCVPOR>
+            <RCVPRT>LS</RCVPRT>
+            <RCVPRN>MSTCLNT101</RCVPRN>
+            <CREDAT>20240827</CREDAT>
+            <CRETIM>011743</CRETIM>
+            <REFINT></REFINT>
+            <SERIAL>20240827011743</SERIAL>
+        </EDI_DC40>
+        <Z1TAUSCHORT SEGMENT="1">
+            <ZUEBERNR>2484772468</ZUEBERNR>
+            <ZBGS>1</ZBGS>
+            <ZTPLNR>8201007031-PR01-AB02</ZTPLNR>
+            <ZKTOUR>-</ZKTOUR>
+            <Z1TOURPOS SEGMENT="1">
+                <ZTOURNR>229</ZTOURNR>
+                <ZTOURTAG>2</ZTOURTAG>
+                <ZTURNUS_TK>1</ZTURNUS_TK>
+                <ZTOURDAUER>1</ZTOURDAUER>
+                <ZTOURTYP>MBS</ZTOURTYP>
+                <ZLKWTYP>LKW</ZLKWTYP>
+                <ZLIEFDAT_FAKT>20240903</ZLIEFDAT_FAKT>
+                <ZLIEFDAT_REG>20240903</ZLIEFDAT_REG>
+                <ZSPLIT>0</ZSPLIT>
+                <ZFKTCODE></ZFKTCODE>
+                <ZANFPOS>980</ZANFPOS>
+                <ZTURNUS_TP>1</ZTURNUS_TP>
+                <ZANFTAG>1</ZANFTAG>
+                <ZABHOLEN>J</ZABHOLEN>
+                <ZLIEFERN>J</ZLIEFERN>
+                <ZNEUKUNDE>N</ZNEUKUNDE>
+                <ZUMGEPLANT>N</ZUMGEPLANT>
+                <ZZUGTOURPOS>999556667</ZZUGTOURPOS>
+                <ZTOK_ID>773284531</ZTOK_ID>
+                <ZTOP_ID>999556666</ZTOP_ID>
+                <ZGUELTIGAB>20220519</ZGUELTIGAB>
+                <ZGUELTIGBI>99991231</ZGUELTIGBI>
+                <ZLOESCH>N</ZLOESCH>
+                <ZUMPLANTOP_ID></ZUMPLANTOP_ID>
+            </Z1TOURPOS>
+            <Z1TOURPOS SEGMENT="1">
+                <ZTOURNR>529</ZTOURNR>
+                <ZTOURTAG>5</ZTOURTAG>
+                <ZTURNUS_TK>1</ZTURNUS_TK>
+                <ZTOURDAUER>1</ZTOURDAUER>
+                <ZTOURTYP>MBS</ZTOURTYP>
+                <ZLKWTYP>LKW</ZLKWTYP>
+                <ZLIEFDAT_FAKT>20240830</ZLIEFDAT_FAKT>
+                <ZLIEFDAT_REG>20240830</ZLIEFDAT_REG>
+                <ZSPLIT>0</ZSPLIT>
+                <ZFKTCODE></ZFKTCODE>
+                <ZANFPOS>1010</ZANFPOS>
+                <ZTURNUS_TP>1</ZTURNUS_TP>
+                <ZANFTAG>1</ZANFTAG>
+                <ZABHOLEN>J</ZABHOLEN>
+                <ZLIEFERN>J</ZLIEFERN>
+                <ZNEUKUNDE>N</ZNEUKUNDE>
+                <ZUMGEPLANT>N</ZUMGEPLANT>
+                <ZZUGTOURPOS>999556666</ZZUGTOURPOS>
+                <ZTOK_ID>773344467</ZTOK_ID>
+                <ZTOP_ID>999556667</ZTOP_ID>
+                <ZGUELTIGAB>20220519</ZGUELTIGAB>
+                <ZGUELTIGBI>99991231</ZGUELTIGBI>
+                <ZLOESCH>N</ZLOESCH>
+                <ZUMPLANTOP_ID></ZUMPLANTOP_ID>
+            </Z1TOURPOS>
+        </Z1TAUSCHORT>
+    </IDOC>
+</ZTOUR02>
+
