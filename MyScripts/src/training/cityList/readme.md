@@ -1,8 +1,10 @@
 # JSON Demo
 
+The _CityList_ example demonstrates a lot of Groovy List, Map and Test functionality, as well as, strict typing and some good practices.  
+
 ## Script Functionality 
 
-The script takes any number of JSON documents of type:
+The script - as you can run it on the platform - takes any number of JSON documents of type:
 
 ```json
 {
@@ -17,18 +19,25 @@ The script takes any number of JSON documents of type:
 it builds _one output document_ with an alphabetically ordered list of cities and their citizens:
 
 ```json
-[
-  {
-    "city" : "Munich",
-    "citizens" : [
-      { "name" : "Markus Schmidt", "street" : "def"  },
-      { "name" : "Lisa Meyer", "street" : "ghi"  },
-      { ... }
-    ]
-  },
-  { "city2" :  "Wiesbaden",
-    "citizens" : []]
-  }
+{
+  // ...
+  "Munich": [
+    {
+      "name": "Markus Schmidt",
+      "street": "At Home"
+    },
+    {
+      "name": "Lisa Meyer",
+      "street": "Somewhere over the rainbow"
+    }
+  ],
+  "Wiesbaden": [
+    {
+      "name": "Markus Schmidt",
+      "street": "Niedernhausener Str. 59a"
+    }
+  ]
+}
 ```
 
 Finally, we want to have a `DDP_CityCount` that contains the number of cities. 

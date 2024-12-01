@@ -44,9 +44,9 @@ try {
         // You can omit the "as Map" and IntelliJ will give you the tip
         // that you are implicitly converting Object to Map. I prefer the 
         // explicit conversion by adding "as Map"
-        Map jDoc = js.parseText(textDoc) as Map
+        Map inputJson = js.parseText(textDoc) as Map
 
-        String currentCity = jDoc.address.city
+        String currentCity = inputJson.address.city
         if (!cityMap.containsKey(currentCity)) {
             // yet, unknown city: add empty citizen list
             cityMap[currentCity] = [] // [] shortcut for: new ArrayList()
@@ -54,7 +54,7 @@ try {
 
         // Built the citizen object
         Map citizen = [
-                name  : jDoc.name,
+                name  : inputJson.name,
                 // see below: add if not empty
                 //street: jDoc.address.street 
         ]
@@ -62,8 +62,8 @@ try {
         // Omit blank or not provided streets
         // isNullOrEmpty is defined down below. 
         // if-statement with one line do not need {}.
-        if (!isNullOrEmpty( jDoc.address.street as String))
-            citizen.street = jDoc.address.street
+        if (!isNullOrEmpty( inputJson.address.street as String))
+            citizen.street = inputJson.address.street
 
 
         // and add it to the current city's list

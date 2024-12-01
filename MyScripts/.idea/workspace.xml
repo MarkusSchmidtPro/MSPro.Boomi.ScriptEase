@@ -4,28 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e84159e0-cd78-4846-bb07-e5cfb0ed25ee" name="Changes" comment="Get IDocType improved">
-      <change afterPath="$PROJECT_DIR$/src/processScript/demo/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/processScript/executionProperties/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/processScript/process_log/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/processScript/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/training/cityList/Test_CityList.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/training/cityList/psgCityList.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/training/cityList/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/training/cityList/testData/rec01.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/training/cityList/testData/rec02.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/training/cityList/testData/rec03.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/training/cityList/testData/rec04.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/training/cityList/testData/rec_010203_result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/scriptEaseLib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/scriptEaseLib.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyScripts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyScripts.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/processScript/demo/Test_ProcessScriptDemo.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/processScript/demo/Test_DemoAll.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/processScript/demo/psgProcessScriptDemo.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/processScript/demo/psgDemoAll.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/processScript/process_log/psgTrace.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/processScript/process_log/psgTrace.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/training/psgGetIDocType/Test_GetIDocType.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/training/psgGetIDocType/Test_GetIDocType.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/training/psgGetIDocType/psgGetIDocType.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/training/psgGetIDocType/psgGetIDocType.groovy" afterDir="false" />
+    <list default="true" id="e84159e0-cd78-4846-bb07-e5cfb0ed25ee" name="Changes" comment="CityList example added">
+      <change beforePath="$PROJECT_DIR$/src/training/cityList/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/training/cityList/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -278,7 +258,7 @@
       <workItem from="1732888645152" duration="45000" />
       <workItem from="1732888701606" duration="5371000" />
       <workItem from="1732962951745" duration="316000" />
-      <workItem from="1733046575111" duration="4154000" />
+      <workItem from="1733046575111" duration="4553000" />
     </task>
     <task id="LOCAL-00001" summary="Training added">
       <option name="closed" value="true" />
@@ -352,7 +332,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732790771811</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="CityList example added">
+      <option name="closed" value="true" />
+      <created>1733050980149</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1733050980149</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,7 +358,8 @@
     <MESSAGE value="Fixed Library references" />
     <MESSAGE value="Fixed Library references 2" />
     <MESSAGE value="Get IDocType improved" />
-    <option name="LAST_COMMIT_MESSAGE" value="Get IDocType improved" />
+    <MESSAGE value="CityList example added" />
+    <option name="LAST_COMMIT_MESSAGE" value="CityList example added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -384,11 +373,6 @@
           <url>file://$PROJECT_DIR$/src/processScript/executionProperties/Test_LogExecProperties.groovy</url>
           <line>37</line>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/training/cityList/Test_CityList.groovy</url>
-          <line>67</line>
-          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/training/cityList/psgCityList.groovy</url>
