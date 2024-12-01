@@ -1,0 +1,15 @@
+<root>
+    <city>
+        <name>Munich</name>
+        <country>DE</country>
+        <citizens>550000</citizens>
+    </city>
+    <person>
+        <name>John Doe</name>
+        <age>30</age>
+    </person>
+    <person>
+        <name>Jane Smith</name>
+        <age>25</age>
+    </person>
+</root>

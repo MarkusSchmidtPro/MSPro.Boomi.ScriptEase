@@ -51,7 +51,7 @@ try {
             // yet, unknown city: add empty citizen list
             cityMap[currentCity] = [] // [] shortcut for: new ArrayList()
         }
-
+        
         // Built the citizen object
         Map citizen = [
                 name  : inputJson.name,
