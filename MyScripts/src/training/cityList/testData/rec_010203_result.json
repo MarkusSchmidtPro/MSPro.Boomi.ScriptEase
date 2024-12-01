@@ -1,0 +1,23 @@
+{
+  "Aachen": [
+    {
+      "name": "Mr. Stranger"
+    }
+  ],
+  "Munich": [
+    {
+      "name": "Markus Schmidt",
+      "street": "At Home"
+    },
+    {
+      "name": "Lisa Meyer",
+      "street": "Somewhere over the rainbow"
+    }
+  ],
+  "Wiesbaden": [
+    {
+      "name": "Markus Schmidt",
+      "street": "Niedernhausener Str. 59a"
+    }
+  ]
+}

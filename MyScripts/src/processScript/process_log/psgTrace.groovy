@@ -1,7 +1,5 @@
 package processScript.process_log
 
-/// *************** COPY AND PASTE FROM HERE *****************
-
 import com.boomi.execution.ExecutionUtil
 
 final String SCRIPT_NAME = "psgTrace"

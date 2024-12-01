@@ -7,6 +7,7 @@ import msPro.scriptease.Document
 import msPro.scriptease.ProcessScript
 import msPro.scriptease.ProcessScriptContext
 import msPro.scriptease.TestFilesHelper
+import msPro.services.BasicAuthenticator
 import org.junit.Test
 
 @TypeChecked
@@ -20,6 +21,7 @@ class Test_GetIDocType {
 
     @Test
     void test03_IDocType() {
+        
         ProcessScriptContext context = new ProcessScriptContext(
                 inputDocuments: [
                         Document.fromFile(_testFiles.get("Export_WMMBID02.xml")),

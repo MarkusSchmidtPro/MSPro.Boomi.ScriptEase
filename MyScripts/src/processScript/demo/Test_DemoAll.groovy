@@ -7,11 +7,11 @@ import msPro.scriptease.*
 import org.junit.Test
 
 @TypeChecked
-class Test_ProcessScriptDemo {
+class Test_DemoAll {
 
 	@SourceURI
 	URI _sourceUri
-	final ProcessScript _testScript = new ProcessScript("psgProcessScriptDemo.groovy", _sourceUri)
+	final ProcessScript _testScript = new ProcessScript("psgDemoAll.groovy", _sourceUri)
 	
 	final TestFilesHelper _testFiles = new TestFilesHelper( "testData", _sourceUri)
 

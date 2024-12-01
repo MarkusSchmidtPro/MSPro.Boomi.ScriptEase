@@ -4,10 +4,9 @@ import com.boomi.execution.ExecutionUtil
 import groovy.json.JsonOutput
 import groovy.json.JsonSlurper
 
+import java.util.logging.Logger
 
-/// *************** COPY AND PASTE FROM HERE *****************
-
-final String SCRIPT_NAME = "processScript.demo.psgDemo"
+final String SCRIPT_NAME = "psgDemoAll"
 
 /* **************************************************************************
     A process script that demonstrates (and tests) 
@@ -36,7 +35,7 @@ final String SCRIPT_NAME = "processScript.demo.psgDemo"
 ************************************************************************** */
 
 // Use a logger to write information to process reporting
-final _logger = ExecutionUtil.getBaseLogger()
+final Logger _logger = ExecutionUtil.getBaseLogger()
 _logger.info('>>> Script start ' + SCRIPT_NAME)
 
 def js = new JsonSlurper()

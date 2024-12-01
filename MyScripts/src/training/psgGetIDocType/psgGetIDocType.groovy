@@ -41,7 +41,7 @@ final String _wellKnownTypes = "WMMBID02,ZTOUR02"
     Check the process log when the script executes on the platform.
  */
 final Logger _logger = ExecutionUtil.getBaseLogger()
-_logger.handlers.each { it.setFormatter(new DefaultFormatter()) }
+_logger.handlers.each { it.setFormatter(new MyCustomFormatter()) }
 _logger.info('>>> Script start i' + SCRIPT_NAME)
 _logger.fine('>>> Script start f' + SCRIPT_NAME)
 _logger.finer('>>> Script start r' + SCRIPT_NAME)
@@ -120,7 +120,7 @@ static String _setDDP(Properties docProperties, String propertyName, String valu
 }
 
 
-class DefaultFormatter extends Formatter {
+class MyCustomFormatter extends Formatter {
 
     static DateTimeFormatter formatter = DateTimeFormatter
             //.ofPattern("yyyy-MM-dd HH:mm:ss.SSS")
