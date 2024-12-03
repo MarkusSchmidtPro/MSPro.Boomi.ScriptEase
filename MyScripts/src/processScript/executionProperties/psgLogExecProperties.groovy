@@ -1,4 +1,4 @@
-package processScript.executionProperties
+package processScript.execProps
 
 import com.boomi.execution.ExecutionManager
 import com.boomi.execution.ExecutionTask

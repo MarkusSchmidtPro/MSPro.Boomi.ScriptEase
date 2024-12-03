@@ -23,9 +23,9 @@ class Test_AggregatePrices extends GroovyTestCase{
 	@Test
 	void test01() {
 		// Initialize the Script Execution Context:
-		// * Execution Properties       : executionProperties
-		// * Dynamic Process Properties : dynProcPros
-		// * Process Properties         : procPros
+		// * Execution Properties       : execProps
+		// * Dynamic Process Properties : dynProcProps
+		// * Process Properties         : procProps
 		// * Documents                  : inputDocuments
 		//      incl. Dynamic Document Properties
 		// --------------------------------------------------------------

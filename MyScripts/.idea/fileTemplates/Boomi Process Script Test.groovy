@@ -14,7 +14,6 @@ class Test_${Plain_BoomiScriptName} extends GroovyTestCase {
 	final TestFilesHelper _testFiles = new TestFilesHelper( "testData", _sourceUri)
 
 	/** A short description what this test is supposed to do. */
-	@Test
 	void test01() {
 		// Initialize the Script Execution Context:
 		// * Execution Properties       : executionProperties

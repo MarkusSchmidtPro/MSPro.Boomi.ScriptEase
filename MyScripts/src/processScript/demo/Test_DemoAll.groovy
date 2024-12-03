@@ -25,16 +25,15 @@ class Test_DemoAll {
 		ProcessScriptContext context = new ProcessScriptContext()
 		// Initialize 
 		// * Execution context          : executionContexts
-		// * Dynamic Process Properties : dynProcPros
-		// * Process Properties         : procPros
+		// * Dynamic Process Properties : dynProcProps
+		// * Process Properties         : procProps
 		// * Documents                  : inputDocuments
 		//      incl. Dynamic Document Properties
 		// --------------------------------------------------------------
-
-		// context.executionProperties.ACCOUNT_ID = "IntelliJ_IDEA-M42S66"
-
-		context.dynProcPros.DPP_ProcPropString = "My Process Property"
-		context.dynProcPros.DPP_IntValue = 0
+		
+		// context.execProps.ACCOUNT_ID = "IntelliJ_IDEA-M42S66"
+		context.dynProcProps.DPP_ProcPropString = "My Process Property"
+		context.dynProcProps.DPP_IntValue = 0
 
 		// region Process Property 
 
@@ -48,7 +47,7 @@ class Test_DemoAll {
 		def procPropValue1 = 4711
 		def procPropValue2 = "Markus Schmidt"
 		
-		context.procPros = [(PROCESS_PROPERTY_COMPONENT_ID): [
+		context.procProps = [(PROCESS_PROPERTY_COMPONENT_ID): [
 				(VAL1_ID): procPropValue1,
 				(VAL2_ID): procPropValue2
 		]]
@@ -85,9 +84,9 @@ class Test_DemoAll {
 		println("${context.outputDocuments.size()} Document(s) after script execution")
 		assert documentCount == context.outputDocuments.size() 
 
-		assert context.dynProcPros.DPP_IntValue == "1"
+		assert context.dynProcProps.DPP_IntValue == "1"
 
-		def pp = context.procPros[PROCESS_PROPERTY_COMPONENT_ID]
+		def pp = context.procProps[PROCESS_PROPERTY_COMPONENT_ID]
 		assert pp[ VAL1_ID] == procPropValue1 + 1
 		assert pp[ VAL2_ID] == procPropValue2
 

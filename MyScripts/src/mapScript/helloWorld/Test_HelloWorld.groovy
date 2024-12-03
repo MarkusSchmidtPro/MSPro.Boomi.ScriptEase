@@ -35,12 +35,12 @@ class Test_HelloWorld {
 	void setUp() {
 		ProcessContext context = null
 		/* OPTIONAL: Specify a ProcessContext with 
-			* Execution Properties       : executionProperties
-			* Dynamic Process Properties : dynProcPros
-			* Process Properties         : procPros
+			* Execution Properties       : execProps
+			* Dynamic Process Properties : dynProcProps
+			* Process Properties         : procProps
 			
 			context = new ProcessContext(
-					dynProcPros: ["DPP_01": "Value01"]
+					dynProcProps: ["DPP_01": "Value01"]
 			)
 		*/
 

@@ -36,7 +36,7 @@ class Test_ProcessProperties {
 				inputDocuments: [
 						Document.fromText('{ "firstname" : "Walter", "lastname" : "Schmidt" }')
 				],
-				dynProcPros: [
+				dynProcProps: [
 						"DPP_DynProcProp01": 1,
 						"DPP_DynProcProp02": "Value01"
 				]
@@ -58,7 +58,7 @@ class Test_ProcessProperties {
 
 		ProcessScriptContext context = new ProcessScriptContext(
 				inputDocuments: [Document.fromText('{ "firstname" : "Walter", "lastname" : "Schmidt" }')],
-				procPros: 
+				procProps: 
 						[
 							(ppMessageContext): [
 									(ppKeyServiceIncident): "Incident_01",

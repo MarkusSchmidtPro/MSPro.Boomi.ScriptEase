@@ -18,9 +18,9 @@ class Test_xmlToJson extends GroovyTestCase {
     /** A short description what this test is supposed to do. */
     void test01() {
         // Initialize the Script Execution Context:
-        // * Execution Properties       : executionProperties
-        // * Dynamic Process Properties : dynProcPros
-        // * Process Properties         : procPros
+        // * Execution Properties       : execProps
+        // * Dynamic Process Properties : dynProcProps
+        // * Process Properties         : procProps
         // * Documents                  : inputDocuments
         //      incl. Dynamic Document Properties
         // --------------------------------------------------------------
@@ -30,7 +30,7 @@ class Test_xmlToJson extends GroovyTestCase {
                         Document.fromFile( _testFiles.get( "doc01.XML")),
                         Document.fromFile( _testFiles.get( "doc02.XML"))
                 ],
-                dynProcPros: [
+                dynProcProps: [
                         DPP_Prop01: "2024",
                 ])
         _testScript.run(context)
