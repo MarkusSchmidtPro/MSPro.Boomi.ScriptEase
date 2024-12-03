@@ -14,10 +14,11 @@ class Test_${Plain_BoomiScriptName} extends GroovyTestCase {
 	final TestFilesHelper _testFiles = new TestFilesHelper( "testData", _sourceUri)
 
 	/** A short description what this test is supposed to do. */
+	@Test
 	void test01() {
 		// Initialize the Script Execution Context:
 		// * Execution Properties       : executionProperties
-		// * Dynamic Process Properties : dynProcPros
+		// * Dynamic Process Properties : dynProcProps
 		// * Process Properties         : procPros
 		// * Documents                  : inputDocuments
 		//      incl. Dynamic Document Properties
@@ -28,7 +29,7 @@ class Test_${Plain_BoomiScriptName} extends GroovyTestCase {
 						Document.fromText('{ "firstname" : "Walter", "lastname" : "Schmidt" }')
 						//, Document.fromFile( _testFiles.get( "filename.XML"))
 				],
-				dynProcPros: [
+				dynProcProps: [
 						DPP_Prop01 : "2024",
 				] )
 		_testScript.run(context)

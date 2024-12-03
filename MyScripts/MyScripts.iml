@@ -9,5 +9,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="scriptEaseLib" level="project" />
     <orderEntry type="library" name="Groovy SDK" level="application" />
+    <orderEntry type="library" name="ATOMSphere Libs" level="application" />
   </component>
 </module>
