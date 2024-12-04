@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="scriptEaseLib">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/lib/scriptEaseLib-1.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/scriptEaseLib-1.1.1.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
