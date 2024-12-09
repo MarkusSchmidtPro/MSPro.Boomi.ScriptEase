@@ -4,14 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e84159e0-cd78-4846-bb07-e5cfb0ed25ee" name="Changes" comment="Fix readme">
-      <change afterPath="$PROJECT_DIR$/src/training/xmlToJson/Test_xmlToJson.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/training/xmlToJson/psgxmlToJson.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/training/xmlToJson/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/training/xmlToJson/testData/doc01.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/training/xmlToJson/testData/doc02.xml" afterDir="false" />
+    <list default="true" id="e84159e0-cd78-4846-bb07-e5cfb0ed25ee" name="Changes" comment="Conditional Mapping added, v1.1.1">
+      <change afterPath="$PROJECT_DIR$/src/mapScript/conditionalMapping/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/training/aggregatePrices/Test_AggregatePricesX.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/training/aggregatePrices/psgAggregatePricesX.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/training/aggregatePrices/testData/rec01.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/training/aggregatePrices/testData/rec02.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/training/aggregatePrices/testData/rec03.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/training/aggregatePrices/testData/rec04.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/training/cityList/psgCityList.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/training/cityList/psgCityList.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mapScript/conditionalMapping/testData/1733310088514.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/mapScript/conditionalMapping/testData/1733310088514.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/training/aggregatePrices/psgAggregatePrices.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/training/aggregatePrices/psgAggregatePrices.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/training/aggregatePrices/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/training/aggregatePrices/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/training/xmlToJson/Test_xmlToJson.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/processScript/xmlToJson/Test_xmlToJson.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/training/xmlToJson/psgxmlToJson.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/processScript/xmlToJson/psgxmlToJson.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/training/xmlToJson/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/processScript/xmlToJson/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/training/xmlToJson/testData/doc01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/processScript/xmlToJson/testData/doc01.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/training/xmlToJson/testData/doc02.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/processScript/xmlToJson/testData/doc02.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,10 +30,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Boomi Map Script" />
-        <option value="Boomi Map Script Test" />
         <option value="Boomi Process Script" />
         <option value="Boomi Process Script Test" />
+        <option value="Boomi Map Script" />
+        <option value="Boomi Map Script Test" />
       </list>
     </option>
     <option name="SCHEME" value="Project" />
@@ -62,14 +71,17 @@
     "Groovy.main.executor": "Run",
     "Groovy.msgHelloWorld.executor": "Run",
     "JUnit.All in MyScripts (1).executor": "Run",
+    "JUnit.All in MyScripts (2).executor": "Run",
     "JUnit.All in MyScripts.executor": "Run",
     "JUnit.Test_AggregatePrices.executor": "Run",
     "JUnit.Test_AggregatePrices.test01.executor": "Run",
+    "JUnit.Test_AggregatePricesX.test01.executor": "Debug",
     "JUnit.Test_CityList.test01.executor": "Run",
     "JUnit.Test_DemoAll.executor": "Debug",
     "JUnit.Test_Empty.executor": "Debug",
     "JUnit.Test_Empty.test01.executor": "Run",
     "JUnit.Test_GetIDocType.test03_IDocType.executor": "Run",
+    "JUnit.Test_HelloWorld.executor": "Run",
     "JUnit.Test_HelloWorld.test01.executor": "Run",
     "JUnit.Test_LogExecProperties.executor": "Run",
     "JUnit.Test_LogExecProperties.test01.executor": "Run",
@@ -78,7 +90,10 @@
     "JUnit.Test_Simple.executor": "Run",
     "JUnit.Test_Simple.test01.executor": "Run",
     "JUnit.Test_abc.test01.executor": "Run",
-    "JUnit.Test_xmlToJson.test01.executor": "Debug",
+    "JUnit.Test_conditionalMapping.test01.executor": "Run",
+    "JUnit.Test_vkorgRegion.executor": "Run",
+    "JUnit.Test_vkorgRegion.test01.executor": "Debug",
+    "JUnit.Test_xmlToJson.test01.executor": "Run",
     "JUnit.processScript in MyScripts.executor": "Run",
     "JUnit.training in MyScripts.executor": "Run",
     "Repository.Attach.Annotations": "false",
@@ -90,7 +105,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "V:/VStudio/MSPro.Boomi.ScriptEase/MyScripts/src/training/xmlToJson/testData",
+    "last_opened_file_path": "V:/VStudio/MSPro.Boomi.ScriptEase/MyScripts/src/training/aggregatePrices/testData",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -109,78 +124,98 @@
       <recent name="training.aggregatePrices" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="V:\VStudio\MSPro.Boomi.ScriptEase\MyScripts\src\training\aggregatePrices\testData" />
+      <recent name="V:\VStudio\MSPro.Boomi.ScriptEase\MyScripts\src\training\aggregatePrices" />
+      <recent name="V:\VStudio\MSPro.Boomi.ScriptEase\MyScripts\src\mapScript\conditionalMapping" />
       <recent name="V:\VStudio\MSPro.Boomi.ScriptEase\MyScripts\src\training\xmlToJson\testData" />
       <recent name="V:\VStudio\MSPro.Boomi.ScriptEase\MyScripts\src\training\json\testData" />
-      <recent name="V:\VStudio\MSPro.Boomi.ScriptEase\MyScripts\src\processScript" />
-      <recent name="V:\VStudio\MSPro.Boomi.ScriptEase\MyScripts\src\training\psgGetIDocType\testData" />
-      <recent name="V:\VStudio\MSPro.Boomi.ScriptEase\MyScripts\src\training\psgGetIDocType" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="V:\VStudio\MSPro.Boomi.ScriptEase\MyScripts\src\turck\testData" />
       <recent name="V:\VStudio\MSPro.Boomi.ScriptEase\MyScripts\src\training\cityList" />
       <recent name="V:\VStudio\MSPro.Boomi.ScriptEase\MyScripts\src\training\json" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="processScript" />
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="training.aggregatePrices" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.Test_xmlToJson.test01">
-    <configuration name="All in MyScripts (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyScripts" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in MyScripts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyScripts" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test_CityList.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Test_AggregatePricesX.test01">
+    <configuration name="Test_AggregatePricesX.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyScripts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="training.cityList.*" />
+          <option name="PATTERN" value="training.aggregatePrices.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="training.cityList" />
-      <option name="MAIN_CLASS_NAME" value="training.cityList.Test_CityList" />
+      <option name="PACKAGE_NAME" value="training.aggregatePrices" />
+      <option name="MAIN_CLASS_NAME" value="training.aggregatePrices.Test_AggregatePricesX" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_DemoAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_HelloWorld" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyScripts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="processScript.demo.*" />
+          <option name="PATTERN" value="mapScript.helloWorld.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="processScript.demo" />
-      <option name="MAIN_CLASS_NAME" value="processScript.demo.Test_DemoAll" />
+      <option name="PACKAGE_NAME" value="mapScript.helloWorld" />
+      <option name="MAIN_CLASS_NAME" value="mapScript.helloWorld.Test_HelloWorld" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_xmlToJson.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_conditionalMapping.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyScripts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="training.xmlToJson.*" />
+          <option name="PATTERN" value="mapScript.conditionalMapping.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="training.xmlToJson" />
-      <option name="MAIN_CLASS_NAME" value="training.xmlToJson.Test_xmlToJson" />
+      <option name="PACKAGE_NAME" value="mapScript.conditionalMapping" />
+      <option name="MAIN_CLASS_NAME" value="mapScript.conditionalMapping.Test_conditionalMapping" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_vkorgRegion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyScripts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mapScript.conditionalMapping.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mapScript.conditionalMapping" />
+      <option name="MAIN_CLASS_NAME" value="mapScript.conditionalMapping.Test_vkorgRegion" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_vkorgRegion.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyScripts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mapScript.conditionalMapping.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mapScript.conditionalMapping" />
+      <option name="MAIN_CLASS_NAME" value="mapScript.conditionalMapping.Test_vkorgRegion" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -189,11 +224,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Test_xmlToJson.test01" />
-        <item itemvalue="JUnit.All in MyScripts (1)" />
-        <item itemvalue="JUnit.Test_CityList.test01" />
-        <item itemvalue="JUnit.Test_DemoAll" />
-        <item itemvalue="JUnit.All in MyScripts" />
+        <item itemvalue="JUnit.Test_AggregatePricesX.test01" />
+        <item itemvalue="JUnit.Test_conditionalMapping.test01" />
+        <item itemvalue="JUnit.Test_vkorgRegion.test01" />
+        <item itemvalue="JUnit.Test_HelloWorld" />
+        <item itemvalue="JUnit.Test_vkorgRegion" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +295,18 @@
       <workItem from="1732888701606" duration="5371000" />
       <workItem from="1732962951745" duration="316000" />
       <workItem from="1733046575111" duration="6797000" />
-      <workItem from="1733067265524" duration="2388000" />
+      <workItem from="1733067265524" duration="2728000" />
+      <workItem from="1733125694755" duration="1192000" />
+      <workItem from="1733210126851" duration="1328000" />
+      <workItem from="1733211479136" duration="159000" />
+      <workItem from="1733211667039" duration="82000" />
+      <workItem from="1733211760998" duration="48000" />
+      <workItem from="1733211857960" duration="90000" />
+      <workItem from="1733211956902" duration="290000" />
+      <workItem from="1733224386178" duration="149000" />
+      <workItem from="1733310143257" duration="596000" />
+      <workItem from="1733311144684" duration="1766000" />
+      <workItem from="1733729165914" duration="6950000" />
     </task>
     <task id="LOCAL-00001" summary="Training added">
       <option name="closed" value="true" />
@@ -350,7 +396,47 @@
       <option name="project" value="LOCAL" />
       <updated>1733051407162</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Xml to Json">
+      <option name="closed" value="true" />
+      <created>1733080805028</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1733080805028</updated>
+    </task>
+    <task id="LOCAL-00013" summary="ScriptEase lib updated">
+      <option name="closed" value="true" />
+      <created>1733129910717</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1733129910717</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Fixed typos">
+      <option name="closed" value="true" />
+      <created>1733212243531</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1733212243531</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Fixed typos 2, uses ATOM SDK">
+      <option name="closed" value="true" />
+      <created>1733224526862</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1733224526862</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Conditional Mapping added, v1.1.1">
+      <option name="closed" value="true" />
+      <created>1733312911357</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1733312911357</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,7 +456,12 @@
     <MESSAGE value="Get IDocType improved" />
     <MESSAGE value="CityList example added" />
     <MESSAGE value="Fix readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix readme" />
+    <MESSAGE value="Xml to Json" />
+    <MESSAGE value="ScriptEase lib updated" />
+    <MESSAGE value="Fixed typos" />
+    <MESSAGE value="Fixed typos 2, uses ATOM SDK" />
+    <MESSAGE value="Conditional Mapping added, v1.1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Conditional Mapping added, v1.1.1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -391,14 +482,14 @@
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/training/xmlToJson/psgxmlToJson.groovy</url>
-          <line>46</line>
+          <url>file://$PROJECT_DIR$/src/training/aggregatePrices/Test_AggregatePricesX.groovy</url>
+          <line>51</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/training/xmlToJson/psgxmlToJson.groovy</url>
-          <line>42</line>
-          <option name="timeStamp" value="18" />
+          <url>file://$PROJECT_DIR$/src/training/aggregatePrices/psgAggregatePricesX.groovy</url>
+          <line>45</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

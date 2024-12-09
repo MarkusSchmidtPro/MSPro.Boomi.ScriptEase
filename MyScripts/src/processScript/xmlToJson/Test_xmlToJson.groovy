@@ -1,10 +1,9 @@
-package training.xmlToJson
+package processScript.xmlToJson
 
 import groovy.json.JsonOutput
 import groovy.json.JsonSlurper
 import groovy.transform.*
 import msPro.scriptease.*
-import org.junit.Test
 
 @TypeChecked
 class Test_xmlToJson extends GroovyTestCase {

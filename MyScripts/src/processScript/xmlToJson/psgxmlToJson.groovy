@@ -1,9 +1,7 @@
-package training.xmlToJson
+package processScript.xmlToJson
 
 import com.boomi.execution.ExecutionUtil
 import groovy.json.JsonOutput
-import groovy.util.slurpersupport.NodeChild
-import groovy.util.slurpersupport.NodeChildren
 
 final String SCRIPT_NAME = "xmlToJson"
 

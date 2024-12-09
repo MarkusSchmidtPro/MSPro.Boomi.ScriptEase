@@ -41,7 +41,7 @@ try {
 	_logger.fine("In-Document Count=" + docCount)
 
 	// https://www.tutorialspoint.com/groovy/groovy_lists.htm
-	List articles = []
+	List outArticles = []
 
 	for (int docNo = 0; docNo < docCount; docNo++) {
 		final String textDoc = _getTextDocument(dataContext, docNo)
@@ -59,7 +59,7 @@ try {
 		// If no, we create a new item and add it to the articles result list.
 		// it - iterator = List element (of type)
 
-		def article = articles.find { it.articleNo == jsonDoc.articleNo }
+		def article = outArticles.find { it.articleNo == jsonDoc.articleNo }
 		// article TYPE 
 		// {    
 		//      articleNo
@@ -68,7 +68,7 @@ try {
 		// }
 
 		if (article == null) { // << set breakpoint here
-			articles.add([
+			outArticles.add([
 					articleNo: jsonDoc.articleNo,
 					priceCount : 1,
 					minPrice : jsonDoc.price,
@@ -88,7 +88,7 @@ try {
 	}   // documents loop
 	
 	// Your process related code (process properties etc.) here
-	String outputDoc = JsonOutput.toJson(articles)
+	String outputDoc = JsonOutput.toJson(outArticles)
 	_setTextDocument(dataContext, outputDoc, new Properties())
 }
 catch (Exception e) {
