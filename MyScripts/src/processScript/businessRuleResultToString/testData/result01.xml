@@ -1,0 +1,3 @@
+<business_rule_failures>
+    <business_rule_failure rule="Validate zip">ZIP code missing!</business_rule_failure>
+</business_rule_failures>

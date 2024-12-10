@@ -1,0 +1,4 @@
+<business_rule_failures>
+    <business_rule_failure rule="Validate PLZ">PLZ invalid!</business_rule_failure>
+    <business_rule_failure rule="Validate Ort">City is missing!</business_rule_failure>
+</business_rule_failures>
