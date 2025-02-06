@@ -11,7 +11,7 @@ final String SCRIPT_NAME = "BRResultToString"
     OUT:    DDP_BusinessRuleResult (string)
     
     ------------------------------------------------
-    2024-07-25  msc -   Back to DDP_ 
+    2024-07-24  msc -   Back to DDP_ 
                     -   DDP renamed to camel-case: DDP_BusinessRuleResult
     2024-05-21  msc -   DDP_ to D_
                     -   MESSAGE_SEPARATOR introduced 
