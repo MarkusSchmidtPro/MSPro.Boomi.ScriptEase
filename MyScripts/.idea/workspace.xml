@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e84159e0-cd78-4846-bb07-e5cfb0ed25ee" name="Changes" comment="Lib readme updated">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LicenseActivator.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/scriptEaseLib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/scriptEaseLib.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyScripts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyScripts.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/processScript/businessRuleResultToString/psgBRResultToString.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/processScript/businessRuleResultToString/psgBRResultToString.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../desktop.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../desktop.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/scriptEaseLib-1.1.4.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,73 +51,74 @@
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path&quot;: &quot;V:\\VStudio\\MSPro.Boomi.ScriptEase\\MyScripts\\lib}groovy-2.4.20&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Groovy.deleteFilesNotUsed.executor&quot;: &quot;Debug&quot;,
-    &quot;Groovy.main.executor&quot;: &quot;Run&quot;,
-    &quot;Groovy.msgHelloWorld.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.All in MyScripts (1).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.All in MyScripts (2).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.All in MyScripts.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Test_AggregatePrices.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Test_AggregatePrices.test01.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Test_AggregatePricesX.test01.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.Test_BRResultToString.test01.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Test_CityList.test01.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Test_DemoAll.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.Test_Empty.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.Test_Empty.test01.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Test_GetIDocType.test03_IDocType.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Test_HelloWorld.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Test_HelloWorld.test01.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Test_LogExecProperties.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Test_LogExecProperties.test01.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Test_ProcessScript_Simple.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Test_SetIDocType.test03_IDocType.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.Test_Simple.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Test_Simple.test01.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Test_abc.test01.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Test_conditionalMapping.test01.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Test_vkorgRegion.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Test_vkorgRegion.test01.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.Test_xmlToJson.test01.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.processScript in MyScripts.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.training in MyScripts.executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;V:/VStudio/Boomi.ScriptEase.Lib/scriptEaseLib&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.13218391&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Groovy&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.39253998&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path": "V:\\VStudio\\MSPro.Boomi.ScriptEase\\MyScripts\\lib}groovy-2.4.20",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Groovy.deleteFilesNotUsed.executor": "Debug",
+    "Groovy.main.executor": "Run",
+    "Groovy.msgHelloWorld.executor": "Run",
+    "JUnit.All in MyScripts (1).executor": "Run",
+    "JUnit.All in MyScripts (2).executor": "Run",
+    "JUnit.All in MyScripts.executor": "Run",
+    "JUnit.LicenseActivator.activateLicense.executor": "Run",
+    "JUnit.Test_AggregatePrices.executor": "Run",
+    "JUnit.Test_AggregatePrices.test01.executor": "Run",
+    "JUnit.Test_AggregatePricesX.test01.executor": "Debug",
+    "JUnit.Test_BRResultToString.test01.executor": "Run",
+    "JUnit.Test_CityList.test01.executor": "Run",
+    "JUnit.Test_DemoAll.executor": "Debug",
+    "JUnit.Test_Empty.executor": "Debug",
+    "JUnit.Test_Empty.test01.executor": "Run",
+    "JUnit.Test_GetIDocType.test03_IDocType.executor": "Run",
+    "JUnit.Test_HelloWorld.executor": "Run",
+    "JUnit.Test_HelloWorld.test01.executor": "Run",
+    "JUnit.Test_LogExecProperties.executor": "Run",
+    "JUnit.Test_LogExecProperties.test01.executor": "Run",
+    "JUnit.Test_ProcessScript_Simple.executor": "Run",
+    "JUnit.Test_SetIDocType.test03_IDocType.executor": "Debug",
+    "JUnit.Test_Simple.executor": "Run",
+    "JUnit.Test_Simple.test01.executor": "Run",
+    "JUnit.Test_abc.test01.executor": "Run",
+    "JUnit.Test_conditionalMapping.test01.executor": "Run",
+    "JUnit.Test_vkorgRegion.executor": "Run",
+    "JUnit.Test_vkorgRegion.test01.executor": "Debug",
+    "JUnit.Test_xmlToJson.test01.executor": "Run",
+    "JUnit.processScript in MyScripts.executor": "Run",
+    "JUnit.training in MyScripts.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "V:/VStudio/Boomi.ScriptEase/MyScripts/lib/scriptEaseLib-1.3.0.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.13218391",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Groovy",
+    "settings.editor.splitter.proportion": "0.39253998",
+    "show.migrate.to.gradle.popup": "false",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="training.aggregatePrices" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="V:\VStudio\Boomi.ScriptEase\MyScripts" />
       <recent name="V:\VStudio\MSPro.Boomi.ScriptEase\MyScripts\src\training\aggregatePrices\testData" />
       <recent name="V:\VStudio\MSPro.Boomi.ScriptEase\MyScripts\src\training\aggregatePrices" />
       <recent name="V:\VStudio\MSPro.Boomi.ScriptEase\MyScripts\src\mapScript\conditionalMapping" />
       <recent name="V:\VStudio\MSPro.Boomi.ScriptEase\MyScripts\src\training\xmlToJson\testData" />
-      <recent name="V:\VStudio\MSPro.Boomi.ScriptEase\MyScripts\src\training\json\testData" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="V:\VStudio\MSPro.Boomi.ScriptEase\MyScripts\src\turck\testData" />
@@ -133,80 +133,17 @@
       <recent name="training.aggregatePrices" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Test_BRResultToString.test01">
-    <configuration name="Test_AggregatePricesX.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="Test_xmlToJson.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyScripts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="training.aggregatePrices.*" />
+          <option name="PATTERN" value="processScript.xmlToJson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="training.aggregatePrices" />
-      <option name="MAIN_CLASS_NAME" value="training.aggregatePrices.Test_AggregatePricesX" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test_BRResultToString.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyScripts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="processScript.businessRuleResultToString.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="processScript.businessRuleResultToString" />
-      <option name="MAIN_CLASS_NAME" value="processScript.businessRuleResultToString.Test_BRResultToString" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test_HelloWorld" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyScripts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mapScript.helloWorld.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mapScript.helloWorld" />
-      <option name="MAIN_CLASS_NAME" value="mapScript.helloWorld.Test_HelloWorld" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test_conditionalMapping.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyScripts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mapScript.conditionalMapping.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mapScript.conditionalMapping" />
-      <option name="MAIN_CLASS_NAME" value="mapScript.conditionalMapping.Test_conditionalMapping" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test_vkorgRegion.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyScripts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mapScript.conditionalMapping.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mapScript.conditionalMapping" />
-      <option name="MAIN_CLASS_NAME" value="mapScript.conditionalMapping.Test_vkorgRegion" />
+      <option name="PACKAGE_NAME" value="processScript.xmlToJson" />
+      <option name="MAIN_CLASS_NAME" value="processScript.xmlToJson.Test_xmlToJson" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -215,19 +152,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Test_BRResultToString.test01" />
-        <item itemvalue="JUnit.Test_AggregatePricesX.test01" />
-        <item itemvalue="JUnit.Test_conditionalMapping.test01" />
-        <item itemvalue="JUnit.Test_vkorgRegion.test01" />
-        <item itemvalue="JUnit.Test_HelloWorld" />
+        <item itemvalue="JUnit.Test_xmlToJson.test01" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.189" />
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.189" />
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
       </set>
     </attachedChunks>
   </component>
@@ -305,6 +238,7 @@
       <workItem from="1737447173194" duration="3411000" />
       <workItem from="1738833466069" duration="583000" />
       <workItem from="1738840884849" duration="17000" />
+      <workItem from="1742655853445" duration="147000" />
     </task>
     <task id="LOCAL-00001" summary="Training added">
       <option name="closed" value="true" />
