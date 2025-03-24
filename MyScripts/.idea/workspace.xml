@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e84159e0-cd78-4846-bb07-e5cfb0ed25ee" name="Changes" comment="scriptEase v1.3.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/scriptEaseLib-1.3.0.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +93,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "V:/VStudio/Boomi.ScriptEase/MyScripts/lib/scriptEaseLib-1.3.0.jar",
+    "last_opened_file_path": "V:/VStudio/Boomi.ScriptEase/MyScripts/lib/scriptEaseLib-1.3.1.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -235,7 +236,8 @@
       <workItem from="1737447173194" duration="3411000" />
       <workItem from="1738833466069" duration="583000" />
       <workItem from="1738840884849" duration="17000" />
-      <workItem from="1742655853445" duration="1363000" />
+      <workItem from="1742655853445" duration="2013000" />
+      <workItem from="1742808756784" duration="137000" />
     </task>
     <task id="LOCAL-00001" summary="Training added">
       <option name="closed" value="true" />
@@ -421,7 +423,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742656057499</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="scriptEase v1.3.0">
+      <option name="closed" value="true" />
+      <created>1742657280246</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1742657280246</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
