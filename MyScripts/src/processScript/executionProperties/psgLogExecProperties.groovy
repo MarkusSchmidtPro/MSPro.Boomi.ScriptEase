@@ -95,12 +95,12 @@ private static void _logExecProperties(Logger _logger) {
  * The highest level is called: top-level.
  */
 void _logExecTaskProperties(ExecutionTask t, int level = 0) {
-	ExecutionTask p = t.getParent()
-	if (p != null) _logExecTaskProperties(p, level + 1)
+	ExecutionTask parentTask = t.getParent()
+	if (parentTask != null) _logExecTaskProperties(parentTask, level + 1)
 
 	_logger.info("------------------------------------------------------------------------------")
 	_logger.info("+ ExecutionTask Properties - Level=" + level + " - bottom (=0) up to top-level")
-	_logger.info("- Is Top-Level           = " + (p == null).toString())
+	_logger.info("- Is Top-Level           = " + (parentTask == null).toString())
 	_logger.info("- Id                     = " + t.getId())
 	_logger.info("- Execution Id           = " + t.getExecutionId())
 	_logger.info("- Process   Name         = " + t.getProcessName())

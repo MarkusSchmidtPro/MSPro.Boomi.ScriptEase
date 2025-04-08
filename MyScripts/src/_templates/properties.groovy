@@ -70,3 +70,15 @@ static void _setDPP(String propertyName, String value) {
 
 // endregion 
 
+
+/** Pass through all documents. */
+private void documentsPassThrough() {
+
+    for (int docNo = 0; docNo < dataContext.getDataCount(); docNo++) {
+        InputStream documentStream = dataContext.getStream(docNo)
+        Properties dynDocProperties = dataContext.getProperties(docNo)
+        // *********** Script functionality ************
+        // ******** end of Script functionality ********
+        dataContext.storeStream(documentStream, dynDocProperties)
+    }
+}
